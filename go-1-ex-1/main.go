@@ -6,13 +6,13 @@ func main() {
 	var firstName string = "Patrick"
 	var lastName string = "Bucher"
 
-	dayOfBirth := 24
-	monthOfBirth := 6
-	yearOfBirth := 1987
+	var dayOfBirth byte = 24
+	var monthOfBirth byte = 6
+	var yearOfBirth uint16 = 1987
 
-	var numberOfSiblings = 1
+	var numberOfSiblings uint8 = 1
 
-	heightInMeters := 1.88
+	var heightInMeters float32 = 1.88
 
 	var zodiacSign rune = '\u264b'
 
